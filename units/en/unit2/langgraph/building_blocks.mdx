@@ -80,10 +80,6 @@ Edges can be:
 - **Direct**: Always go from node A to node B
 - **Conditional**: Choose the next node based on the current state
 
-> ⚠️ **Important:** Even though multiple paths may be defined (e.g., `node_2` and `node_3`), each graph execution follows only one path. Only a single node will execute per invocation.
-
-To observe different outcomes (when using randomness or LLM-based decisions), the graph must be invoked multiple times.
-
 ## 4. StateGraph
 
 The **StateGraph** is the container that holds your entire agent workflow:
